@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90FE1DE1DA2C59400288D6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE1DD1DA2C59400288D6B /* main.m */; };
+		E90FE1E11DA2C59400288D6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE1E01DA2C59400288D6B /* AppDelegate.m */; };
+		E90FE1E41DA2C59500288D6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE1E31DA2C59500288D6B /* ViewController.m */; };
+		E90FE1E71DA2C59500288D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90FE1E51DA2C59500288D6B /* Main.storyboard */; };
+		E90FE1E91DA2C59500288D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90FE1E81DA2C59500288D6B /* Assets.xcassets */; };
+		E90FE1EC1DA2C59500288D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90FE1EA1DA2C59500288D6B /* LaunchScreen.storyboard */; };
+		E90FE1F71DA2C59500288D6B /* ThermostatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE1F61DA2C59500288D6B /* ThermostatTests.m */; };
+		E90FE2021DA2C59500288D6B /* ThermostatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE2011DA2C59500288D6B /* ThermostatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E90FE1F31DA2C59500288D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90FE1D11DA2C59400288D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90FE1D81DA2C59400288D6B;
+			remoteInfo = Thermostat;
+		};
+		E90FE1FE1DA2C59500288D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90FE1D11DA2C59400288D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90FE1D81DA2C59400288D6B;
+			remoteInfo = Thermostat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90FE1D91DA2C59400288D6B /* Thermostat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermostat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90FE1DD1DA2C59400288D6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E90FE1DF1DA2C59400288D6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E90FE1E01DA2C59400288D6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E90FE1E21DA2C59400288D6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E90FE1E31DA2C59500288D6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E90FE1E61DA2C59500288D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90FE1E81DA2C59500288D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90FE1EB1DA2C59500288D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90FE1ED1DA2C59500288D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90FE1F21DA2C59500288D6B /* ThermostatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90FE1F61DA2C59500288D6B /* ThermostatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatTests.m; sourceTree = "<group>"; };
+		E90FE1F81DA2C59500288D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90FE1FD1DA2C59500288D6B /* ThermostatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90FE2011DA2C59500288D6B /* ThermostatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatUITests.m; sourceTree = "<group>"; };
+		E90FE2031DA2C59500288D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90FE1D61DA2C59400288D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90FE1EF1DA2C59500288D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90FE1FA1DA2C59500288D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90FE1D01DA2C59400288D6B = {
+			isa = PBXGroup;
+			children = (
+				E90FE1DB1DA2C59400288D6B /* Thermostat */,
+				E90FE1F51DA2C59500288D6B /* ThermostatTests */,
+				E90FE2001DA2C59500288D6B /* ThermostatUITests */,
+				E90FE1DA1DA2C59400288D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90FE1DA1DA2C59400288D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90FE1D91DA2C59400288D6B /* Thermostat.app */,
+				E90FE1F21DA2C59500288D6B /* ThermostatTests.xctest */,
+				E90FE1FD1DA2C59500288D6B /* ThermostatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90FE1DB1DA2C59400288D6B /* Thermostat */ = {
+			isa = PBXGroup;
+			children = (
+				E90FE1DF1DA2C59400288D6B /* AppDelegate.h */,
+				E90FE1E01DA2C59400288D6B /* AppDelegate.m */,
+				E90FE1E21DA2C59400288D6B /* ViewController.h */,
+				E90FE1E31DA2C59500288D6B /* ViewController.m */,
+				E90FE1E51DA2C59500288D6B /* Main.storyboard */,
+				E90FE1E81DA2C59500288D6B /* Assets.xcassets */,
+				E90FE1EA1DA2C59500288D6B /* LaunchScreen.storyboard */,
+				E90FE1ED1DA2C59500288D6B /* Info.plist */,
+				E90FE1DC1DA2C59400288D6B /* Supporting Files */,
+			);
+			path = Thermostat;
+			sourceTree = "<group>";
+		};
+		E90FE1DC1DA2C59400288D6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E90FE1DD1DA2C59400288D6B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E90FE1F51DA2C59500288D6B /* ThermostatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E90FE1F61DA2C59500288D6B /* ThermostatTests.m */,
+				E90FE1F81DA2C59500288D6B /* Info.plist */,
+			);
+			path = ThermostatTests;
+			sourceTree = "<group>";
+		};
+		E90FE2001DA2C59500288D6B /* ThermostatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E90FE2011DA2C59500288D6B /* ThermostatUITests.m */,
+				E90FE2031DA2C59500288D6B /* Info.plist */,
+			);
+			path = ThermostatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90FE1D81DA2C59400288D6B /* Thermostat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90FE2061DA2C59500288D6B /* Build configuration list for PBXNativeTarget "Thermostat" */;
+			buildPhases = (
+				E90FE1D51DA2C59400288D6B /* Sources */,
+				E90FE1D61DA2C59400288D6B /* Frameworks */,
+				E90FE1D71DA2C59400288D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thermostat;
+			productName = Thermostat;
+			productReference = E90FE1D91DA2C59400288D6B /* Thermostat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90FE1F11DA2C59500288D6B /* ThermostatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90FE2091DA2C59500288D6B /* Build configuration list for PBXNativeTarget "ThermostatTests" */;
+			buildPhases = (
+				E90FE1EE1DA2C59500288D6B /* Sources */,
+				E90FE1EF1DA2C59500288D6B /* Frameworks */,
+				E90FE1F01DA2C59500288D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90FE1F41DA2C59500288D6B /* PBXTargetDependency */,
+			);
+			name = ThermostatTests;
+			productName = ThermostatTests;
+			productReference = E90FE1F21DA2C59500288D6B /* ThermostatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E90FE1FC1DA2C59500288D6B /* ThermostatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90FE20C1DA2C59500288D6B /* Build configuration list for PBXNativeTarget "ThermostatUITests" */;
+			buildPhases = (
+				E90FE1F91DA2C59500288D6B /* Sources */,
+				E90FE1FA1DA2C59500288D6B /* Frameworks */,
+				E90FE1FB1DA2C59500288D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90FE1FF1DA2C59500288D6B /* PBXTargetDependency */,
+			);
+			name = ThermostatUITests;
+			productName = ThermostatUITests;
+			productReference = E90FE1FD1DA2C59500288D6B /* ThermostatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90FE1D11DA2C59400288D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Colby Gatte";
+				TargetAttributes = {
+					E90FE1D81DA2C59400288D6B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E90FE1F11DA2C59500288D6B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E90FE1D81DA2C59400288D6B;
+					};
+					E90FE1FC1DA2C59500288D6B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E90FE1D81DA2C59400288D6B;
+					};
+				};
+			};
+			buildConfigurationList = E90FE1D41DA2C59400288D6B /* Build configuration list for PBXProject "Thermostat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90FE1D01DA2C59400288D6B;
+			productRefGroup = E90FE1DA1DA2C59400288D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90FE1D81DA2C59400288D6B /* Thermostat */,
+				E90FE1F11DA2C59500288D6B /* ThermostatTests */,
+				E90FE1FC1DA2C59500288D6B /* ThermostatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90FE1D71DA2C59400288D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90FE1EC1DA2C59500288D6B /* LaunchScreen.storyboard in Resources */,
+				E90FE1E91DA2C59500288D6B /* Assets.xcassets in Resources */,
+				E90FE1E71DA2C59500288D6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90FE1F01DA2C59500288D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90FE1FB1DA2C59500288D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90FE1D51DA2C59400288D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90FE1E41DA2C59500288D6B /* ViewController.m in Sources */,
+				E90FE1E11DA2C59400288D6B /* AppDelegate.m in Sources */,
+				E90FE1DE1DA2C59400288D6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90FE1EE1DA2C59500288D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90FE1F71DA2C59500288D6B /* ThermostatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90FE1F91DA2C59500288D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90FE2021DA2C59500288D6B /* ThermostatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90FE1F41DA2C59500288D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90FE1D81DA2C59400288D6B /* Thermostat */;
+			targetProxy = E90FE1F31DA2C59500288D6B /* PBXContainerItemProxy */;
+		};
+		E90FE1FF1DA2C59500288D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90FE1D81DA2C59400288D6B /* Thermostat */;
+			targetProxy = E90FE1FE1DA2C59500288D6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E90FE1E51DA2C59500288D6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90FE1E61DA2C59500288D6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90FE1EA1DA2C59500288D6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90FE1EB1DA2C59500288D6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90FE2041DA2C59500288D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E90FE2051DA2C59500288D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90FE2071DA2C59500288D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Thermostat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cgco.Thermostat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E90FE2081DA2C59500288D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Thermostat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cgco.Thermostat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E90FE20A1DA2C59500288D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThermostatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cgco.ThermostatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thermostat.app/Thermostat";
+			};
+			name = Debug;
+		};
+		E90FE20B1DA2C59500288D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThermostatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cgco.ThermostatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thermostat.app/Thermostat";
+			};
+			name = Release;
+		};
+		E90FE20D1DA2C59500288D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThermostatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cgco.ThermostatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Thermostat;
+			};
+			name = Debug;
+		};
+		E90FE20E1DA2C59500288D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThermostatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cgco.ThermostatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Thermostat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90FE1D41DA2C59400288D6B /* Build configuration list for PBXProject "Thermostat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90FE2041DA2C59500288D6B /* Debug */,
+				E90FE2051DA2C59500288D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90FE2061DA2C59500288D6B /* Build configuration list for PBXNativeTarget "Thermostat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90FE2071DA2C59500288D6B /* Debug */,
+				E90FE2081DA2C59500288D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E90FE2091DA2C59500288D6B /* Build configuration list for PBXNativeTarget "ThermostatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90FE20A1DA2C59500288D6B /* Debug */,
+				E90FE20B1DA2C59500288D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E90FE20C1DA2C59500288D6B /* Build configuration list for PBXNativeTarget "ThermostatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90FE20D1DA2C59500288D6B /* Debug */,
+				E90FE20E1DA2C59500288D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90FE1D11DA2C59400288D6B /* Project object */;
+}
