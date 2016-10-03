@@ -15,6 +15,8 @@
 		E90FE1EC1DA2C59500288D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90FE1EA1DA2C59500288D6B /* LaunchScreen.storyboard */; };
 		E90FE1F71DA2C59500288D6B /* ThermostatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE1F61DA2C59500288D6B /* ThermostatTests.m */; };
 		E90FE2021DA2C59500288D6B /* ThermostatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE2011DA2C59500288D6B /* ThermostatUITests.m */; };
+		E90FE2111DA2C7E200288D6B /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE2101DA2C7E200288D6B /* Temperature.m */; };
+		E90FE2141DA2D63700288D6B /* WeatherAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FE2131DA2D63700288D6B /* WeatherAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E90FE1FD1DA2C59500288D6B /* ThermostatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90FE2011DA2C59500288D6B /* ThermostatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatUITests.m; sourceTree = "<group>"; };
 		E90FE2031DA2C59500288D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90FE20F1DA2C7E200288D6B /* Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temperature.h; sourceTree = "<group>"; };
+		E90FE2101DA2C7E200288D6B /* Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temperature.m; sourceTree = "<group>"; };
+		E90FE2121DA2D63700288D6B /* WeatherAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherAPI.h; sourceTree = "<group>"; };
+		E90FE2131DA2D63700288D6B /* WeatherAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E90FE1E01DA2C59400288D6B /* AppDelegate.m */,
 				E90FE1E21DA2C59400288D6B /* ViewController.h */,
 				E90FE1E31DA2C59500288D6B /* ViewController.m */,
+				E90FE2121DA2D63700288D6B /* WeatherAPI.h */,
+				E90FE2131DA2D63700288D6B /* WeatherAPI.m */,
+				E90FE20F1DA2C7E200288D6B /* Temperature.h */,
+				E90FE2101DA2C7E200288D6B /* Temperature.m */,
 				E90FE1E51DA2C59500288D6B /* Main.storyboard */,
 				E90FE1E81DA2C59500288D6B /* Assets.xcassets */,
 				E90FE1EA1DA2C59500288D6B /* LaunchScreen.storyboard */,
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90FE2141DA2D63700288D6B /* WeatherAPI.m in Sources */,
 				E90FE1E41DA2C59500288D6B /* ViewController.m in Sources */,
 				E90FE1E11DA2C59400288D6B /* AppDelegate.m in Sources */,
+				E90FE2111DA2C7E200288D6B /* Temperature.m in Sources */,
 				E90FE1DE1DA2C59400288D6B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

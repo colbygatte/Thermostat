@@ -9,7 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    // 0 = f
+    // 1 = c
+    //int current;
+    UIColor *originalBackgroundColor;
+}
+@property (nonatomic, weak) IBOutlet UILabel *degreeLabel;
+@property (nonatomic, weak) IBOutlet UISegmentedControl *unit;
+@property (nonatomic, weak) IBOutlet UISlider *slider;
 
+@property (nonatomic, weak) IBOutlet UITextField *zipcode;
+@property (nonatomic, weak) IBOutlet UILabel *tempFromZipcode;
 
 @end
 
